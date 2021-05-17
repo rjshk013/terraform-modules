@@ -66,6 +66,15 @@ Even if the s3 bucket have objects will get error that bucket is not exist.So ju
 variables need to update :
 
 bucket_name :
+
 route53_domain:
+
 domain :
+
+reference : https://blog.francium.tech/how-to-serve-your-website-from-aws-s3-using-terraform-94dfd16324bf
+
+
+use clone the repo & edit variables accordingly
+
+apply terraform commads 
 
