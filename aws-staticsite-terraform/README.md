@@ -56,16 +56,16 @@ You can find the actual examples [here](examples/README.md)
 - Add tests using Terratest
 - Add contribution guidelines & Issue templates
 
-## Maintainers
+Issues were found & fix:
+-------------------------
 
-[@worldofprasanna](https://github.com/worldofprasanna)
+In order to check acm certificate validation we need to manually copy paste the nameservers from aws route 53 to our custom domain provider control panel.if the domain is bought from aws route 53 itself no need of that
 
-## Contributing
+Even if the s3 bucket have objects will get error that bucket is not exist.So just upload any sample file to s3 bucket and apply terraform apply again.
 
-PRs accepted.
+variables need to update :
 
-Small note: If editing the README, please conform to the [standard-readme](https://github.com/RichardLitt/standard-readme) specification.
+bucket_name :
+route53_domain:
+domain :
 
-## License
-
-MIT © 2020 Prasanna V
