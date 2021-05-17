@@ -1,0 +1,9 @@
+reference : https://www.alexhyett.com/terraform-s3-static-website-hosting/
+
+steps :
+
+1.create s3 bucket manualy for storing state files 
+
+2.after terraform creation upload sample index.html to www.domain.name s3 bucket 
+
+3.get the cloudfront url and check it is working 
